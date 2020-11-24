@@ -1,0 +1,32 @@
+PODS:
+  - lottie-ios (3.1.9)
+  - NFCPassportReader (1.0.13):
+    - OpenSSL-Universal/Framework
+  - OpenSSL-Universal/Framework (1.0.2.20)
+
+DEPENDENCIES:
+  - lottie-ios
+  - NFCPassportReader (from `https://github.com/VB10/NFCPassportReader.git`)
+
+SPEC REPOS:
+  trunk:
+    - lottie-ios
+    - OpenSSL-Universal
+
+EXTERNAL SOURCES:
+  NFCPassportReader:
+    :git: https://github.com/VB10/NFCPassportReader.git
+
+CHECKOUT OPTIONS:
+  NFCPassportReader:
+    :commit: 735e7ee1a44332a55991bb026653cf5e508c10bf
+    :git: https://github.com/VB10/NFCPassportReader.git
+
+SPEC CHECKSUMS:
+  lottie-ios: 3a3758ef5a008e762faec9c9d50a39842f26d124
+  NFCPassportReader: fe18a1764146fed9a0688857e89343516eea087d
+  OpenSSL-Universal: ff34003318d5e1163e9529b08470708e389ffcdd
+
+PODFILE CHECKSUM: f51ace0d1aeb1ab1542269a2db7290708d9e222f
+
+COCOAPODS: 1.10.0
